@@ -2,43 +2,43 @@
 
 ## Problem Domain Description
 
-### **Title**
+### Title
     Food Ordering & Delivery System
 
-### **Description**
+### Description
     This system allows customers to browse food items, place orders, and track their delivery. It manages food listings, customer details, and order processing, ensuring that users can easily request meals while the system keeps track of order status and availability.
 
 ---
 
 ## Class Diagram (Plain Text)
 
-### **Class: FoodItem**
+### Class: FoodItem
 
-    **Attributes:**
+    Attributes:
     - foodId (String)
     - name (String)
     - price (Number)
 
-    **Methods:**
+    Methods:
     - updatePrice(newPrice)
     - markUnavailable()
 
 ---
 
-### **Class: Customer**
+### Class: Customer
 
-    **Attributes:**
+    Attributes:
     - customerId (String)
     - name (String)
     - cart (Array)
 
-    **Methods:**
+    Methods:
     - addToCart(foodItem)
     - placeOrder()
 
 ---
 
-## 📊 UML Class Diagram (Mermaid)
+## UML Class Diagram (Mermaid)
 
     ```mermaid
     classDiagram
