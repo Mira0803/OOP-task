@@ -12,7 +12,7 @@
 
 ## Class Diagram (Plain Text)
 
-    #Class: FoodItem
+    Class: FoodItem
 
         Attributes:
         - foodId (String)
@@ -25,7 +25,7 @@
 
     
 
-     Class: Customer
+    Class: Customer
 
         Attributes:
         - customerId (String)
@@ -41,6 +41,7 @@
 ## UML Class Diagram
 
     classDiagram
+    
         class FoodItem {
             +String foodId
             +String name
