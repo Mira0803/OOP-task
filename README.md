@@ -12,35 +12,34 @@
 
 ## Class Diagram (Plain Text)
 
-### Class: FoodItem
+    ### Class: FoodItem
 
-    Attributes:
-    - foodId (String)
-    - name (String)
-    - price (Number)
+        Attributes:
+        - foodId (String)
+        - name (String)
+        - price (Number)
 
-    Methods:
-    - updatePrice(newPrice)
-    - markUnavailable()
+        Methods:
+        - updatePrice(newPrice)
+        - markUnavailable()
+
+    ---
+
+    ### Class: Customer
+
+        Attributes:
+        - customerId (String)
+        - name (String)
+        - cart (Array)
+
+        Methods:
+        - addToCart(foodItem)
+        - placeOrder()
 
 ---
 
-### Class: Customer
+## UML Class Diagram
 
-    Attributes:
-    - customerId (String)
-    - name (String)
-    - cart (Array)
-
-    Methods:
-    - addToCart(foodItem)
-    - placeOrder()
-
----
-
-## UML Class Diagram (Mermaid)
-
-    ```mermaid
     classDiagram
         class FoodItem {
             +String foodId
