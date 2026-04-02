@@ -12,7 +12,7 @@
 
 ## Class Diagram (Plain Text)
 
-    ### Class: FoodItem
+    #Class: FoodItem
 
         Attributes:
         - foodId (String)
@@ -23,9 +23,9 @@
         - updatePrice(newPrice)
         - markUnavailable()
 
-    ---
+    
 
-    ### Class: Customer
+     Class: Customer
 
         Attributes:
         - customerId (String)
