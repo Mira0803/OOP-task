@@ -1,6 +1,6 @@
-# 🍔 Food Ordering & Delivery System
+#  Food Ordering & Delivery System
 
-## 🧠 Problem Domain Description
+##  Problem Domain Description
 
 ### Title
 Food Ordering & Delivery System
@@ -10,7 +10,7 @@ This system allows customers to browse food items, place orders, and track their
 
 ---
 
-## 🧩 Class Diagram (Plain Text)
+## Class Diagram (Plain Text)
 
 ### Class: FoodItem
 
@@ -38,7 +38,7 @@ This system allows customers to browse food items, place orders, and track their
 
 ---
 
-## 📊 UML Class Diagram
+## UML Class Diagram
 
 ```mermaid
 classDiagram
