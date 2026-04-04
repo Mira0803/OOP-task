@@ -63,6 +63,3 @@ classDiagram
     }
 
     Customer --> FoodItem
-
-
-    ![Class Diagram](./UML-class-diagram.JPG)
