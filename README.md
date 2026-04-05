@@ -18,6 +18,7 @@ This system allows customers to browse food items, place orders, and track their
 - foodId (String)
 - name (String)
 - price (Number)
+- availableItems (Number) [static]
 
 **Methods:**
 - updatePrice(newPrice)
@@ -31,6 +32,7 @@ This system allows customers to browse food items, place orders, and track their
 - customerId (String)
 - name (String)
 - cart (Array)
+- totalCustomers (Number) [static]
 
 **Methods:**
 - addToCart(foodItem)
@@ -46,6 +48,7 @@ classDiagram
         +String foodId
         +String name
         +Number price
+        +Number availableItems <<static>>
         +updatePrice(newPrice)
         +markUnavailable()
     }
@@ -54,6 +57,7 @@ classDiagram
         +String customerId
         +String name
         +Array cart
+        +Number totalCustomers <<static>>
         +addToCart(foodItem)
         +placeOrder()
     }

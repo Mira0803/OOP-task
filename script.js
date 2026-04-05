@@ -38,7 +38,6 @@ class FoodItem {
 
 // Customer Class
 class Customer {
-    // Static property
     static totalCustomers = 0;
 
     constructor(customerId, name) {
